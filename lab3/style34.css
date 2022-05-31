@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Roboto:ital,wght@1,700&display=swap');
+h1  {
+    font-family: 'Roboto', sans-serif;   
+    margin: 5px;
+}
+h2  {
+    margin: 5px;
+}
+p   {
+    margin: 5px;
+}
+strong {
+    font-family: 'Caveat', cursive;
+}
+body    {
+    background-image: url("pattern-broken-line-rhomb.png");
+}
+em  {
+    border-bottom: thick double pink;
+    padding: 10px;
+}

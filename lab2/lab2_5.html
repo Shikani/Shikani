@@ -1,0 +1,67 @@
+<html>
+<head>
+<meta charset="utf-8">
+<title>Форма</title>
+</head>
+<body>
+<form action="#">
+<p>Форма регистрации пользователей</p>
+<table>
+      <tr>
+	  <td>E-mail</td>
+	  <td><input id="emailAddres" type="email" placeholder="Введите E-mail"></td>
+      </tr>
+      <tr>
+	  <td>Пароль</td>
+	  <td><input id="password" type="password" minlenght="3" maxlength="10" placeholder="Введите пароль" required></td>
+      </tr>
+      <tr>
+	  <td>Пол</td>
+	  <td><input type="radio" id="g1" name="g" value="m">Мужской<input type="radio" id="g2" name="g" value="f">Женский</td>
+      </tr>
+      <tr>
+	  <td>Год рождения</td>
+	  <td>	<select>
+	    <option value="value1">1981</option>
+	    <option value="value2">1982</option>
+	    <option value="value3">1983</option>
+	    <option value="value4">1984</option>
+	    <option value="value5">1985</option>
+	    <option value="value6">1986</option>
+	    <option value="value7">1987</option>
+	    <option value="value8">1988</option>
+	    <option value="value9">1989</option>
+	    <option value="value10">1990</option>
+		</select>
+	  -й</td>
+      </tr>
+      <tr>
+	  <td rowspan ="6">Я знаю</td>
+      </tr>
+      <tr>
+	  <td><input type="checkbox" id="k1" name="k" value="r">Русский</td>
+      </tr>
+      <tr>
+	  <td><input type="checkbox" id="k2" name="k" value="s">Испанский</td>
+      </tr>
+      <tr>
+	  <td><input type="checkbox" id="k3" name="k" value="d">Немецкий</td>
+      </tr>
+      <tr>
+	  <td><input type="checkbox" id="k4" name="k" value="e">Англиский</td>
+      </tr>
+      <tr>
+  	  <td><input type="checkbox" id="k5" name="k" value="c">Китайский</td>
+      </tr>
+      <tr>
+	  <td>Обо мне</td>
+	  <td><input type="text" placeholder="Напишите коротко о себе"></td>
+      </tr>
+      <tr>
+	  <td></td>
+	  <td><button>Готово</button><button>Очистить</button></td>
+    </tr>
+</table>
+</form>
+</body>
+</html>
